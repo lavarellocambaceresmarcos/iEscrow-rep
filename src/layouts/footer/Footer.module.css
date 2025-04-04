@@ -1,0 +1,137 @@
+.footer {
+  padding: 1rem;
+  padding-bottom: 0;
+  background-color: var(--footer-bg);
+}
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: none;
+  width: 142px;
+  height: auto;
+}
+.footer p {
+  text-align: center;
+  color: var(--dark-text-color);
+  padding-top: 1rem;
+}
+.community {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0 1rem 0;
+}
+.community span {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: left;
+  padding: 0rem 1rem;
+  font-size: 16px;
+}
+.socials {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 160px;
+}
+.locale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid var(--light-text-color);
+}
+.copyright ul {
+  list-style: none;
+}
+.copyright p,
+.copyright ul li a {
+  color: var(--dark-text-color);
+  font-size: 12px;
+  transition: 0.45s ease-in-out;
+}
+.copyright p {
+  padding: 0;
+}
+.copyright ul li a:hover {
+  color: var(--primary-color);
+}
+@media screen and (min-width: 570px) {
+  .footer {
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 640px) {
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 2rem 4rem;
+    padding-bottom: 0;
+  }
+  .community span {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+  .wrapper {
+    max-width: 1200px;
+  }
+  .top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .logo {
+    display: block;
+  }
+  .community {
+    width: fit-content;
+  }
+  .locale {
+    justify-content: flex-end;
+  }
+  .copyright {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .copyright ul {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding: 0;
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}

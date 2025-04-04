@@ -1,0 +1,97 @@
+.languageCurrencySelector {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.languageCurrencySelector button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: absolute;
+  top: calc(100% + 2rem);
+  min-width: 280px;
+  z-index: 1;
+  border-radius: 6px;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.45s ease-in-out;
+  background-color: var(--dropdown-bg);
+  box-shadow: 0px 4px 6px 0px var(--dropdown-shadow);
+  color: var(--light-text-color);
+}
+.dropdown.show {
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown ul {
+  margin-top: 1rem;
+}
+.dropdown ul li {
+  cursor: pointer;
+  font-weight: 400;
+}
+.dropdown ul li:hover {
+  color: var(--primary-color);
+}
+.dropdown ul li.activeCurrency,
+.dropdown ul li.activeLanguage {
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+.languageCont {
+  width: 40%;
+}
+.currencyCont {
+  width: 39%;
+}
+.currencyCont ul {
+  max-height: 100px;
+  overflow-y: scroll;
+  padding-right: 1rem;
+}
+.currencyCont ul::-webkit-scrollbar {
+  width: 6px;
+  height: 12px;
+}
+.currencyCont ul::-webkit-scrollbar-track {
+  background: #464646;
+  border-radius: 10px;
+}
+.currencyCont ul::-webkit-scrollbar-thumb {
+  background: #666666;
+  border-radius: 10px;
+}
+.currencyCont ul::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+
+.title {
+  color: var(--light-text-color);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.divider {
+  width: 1px;
+  height: 100%;
+  min-height: 140px;
+  background-color: var(--dark-text-color);
+  margin: 0 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .dropdown {
+    right: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.iconText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.iconText img {
+  padding-top: 0.5rem;
+  width: 17px;
+}
+.iconText p {
+  text-align: left;
+  line-height: 1.3rem;
+}

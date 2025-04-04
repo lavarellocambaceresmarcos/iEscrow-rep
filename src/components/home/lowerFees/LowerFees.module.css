@@ -1,0 +1,198 @@
+.lowerFees {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 6rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem 0;
+  text-align: center;
+  color: white;
+}
+.comingSoon {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #1d6ae6;
+  padding: 0.5rem 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.startsIn {
+  font-weight: 500;
+}
+.video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+/* content text */
+.content h2 {
+  color: #ffffff;
+  font-weight: 700;
+  padding: 2rem 1rem;
+  font-size: calc(2rem + 0.6vw);
+}
+.content h2 span {
+  font-weight: 800;
+  margin-right: 6px;
+  background: linear-gradient(to right, var(--pink), var(--cian));
+  -webkit-background-clip: text;
+  color: transparent;
+  z-index: 1;
+  display: inline;
+}
+.coin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+.coin img {
+  width: 238px;
+  height: 238px;
+}
+.coin span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* content countdown */
+.counterdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.counterdown p {
+  font-size: 1.4rem;
+}
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+.buttons a {
+  background-color: #1d6ae6;
+  color: white;
+  padding: 0 4rem;
+  height: 51px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 600;
+}
+.buttons a:hover {
+  background-color: #104baa;
+  box-shadow: 0px 8px 16px 0px rgba(66, 66, 66, 0.37);
+}
+@media screen and (min-width: 570px) {
+  .content h2 {
+    font-size: 3rem;
+    padding: 2rem;
+  }
+  .coin span {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+}
+
+@media screen and (min-width: 768px) {
+  .content h2 {
+    font-size: 3.5rem;
+    padding: 3rem 0;
+  }
+  .comingSoon {
+    padding: 0.5rem 0;
+    font-size: 1.8rem;
+  }
+  .coin span {
+    font-size: 2.8rem;
+  }
+  .counterdown p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1280px) {
+  .lowerFees {
+    padding: 5rem 4rem;
+    margin: 16rem auto;
+  }
+  .comingSoon {
+    right: 0;
+    width: 325px;
+    padding: 2rem;
+  }
+  .content {
+    flex-direction: row;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .content h2 {
+    text-align: left;
+    font-size: 48px;
+    padding: 0;
+  }
+  .counterdown .startsIn {
+    font-size: 40px;
+  }
+  .startsIn {
+    margin-bottom: 2rem;
+  }
+  .counterdown {
+    justify-content: flex-end;
+    padding-bottom: 1.5rem;
+    gap: 0rem;
+    transform: translateX(16px);
+  }
+  .endMessage {
+    margin-bottom: 4rem;
+    font-weight: bold;
+  }
+  .buttons {
+    flex-direction: row;
+    padding: 1rem 0;
+  }
+  .buttons a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}

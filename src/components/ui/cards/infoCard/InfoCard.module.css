@@ -1,0 +1,34 @@
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  gap: 2rem;
+  max-width: 400px;
+}
+.infoCard span {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.infoCard p {
+  text-align: center;
+  color: var(--dark-text-color);
+}
+.titleCont {
+  min-height: 80px;
+}
+
+.infoCard.lg img {
+  width: 100%;
+  max-width: 450px;
+}
+.infoCard.lg span {
+  font-size: 2rem;
+  max-width: 600px;
+}
+
+.infoCard.lg p {
+  max-width: 400px;
+}

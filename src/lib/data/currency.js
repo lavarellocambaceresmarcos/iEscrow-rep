@@ -1,0 +1,17 @@
+export const currencyList = [
+  { id: 1, value: 'USD', label: 'USD' },
+  { id: 2, value: 'EUR', label: 'EUR' },
+  { id: 3, value: 'ARS', label: 'ARS' },
+  { id: 4, value: 'GBP', label: 'GBP' },
+  { id: 5, value: 'JPY', label: 'JPY' },
+  { id: 6, value: 'AUD', label: 'AUD' },
+  { id: 7, value: 'CAD', label: 'CAD' },
+  { id: 8, value: 'CHF', label: 'CHF' },
+  { id: 9, value: 'CNY', label: 'CNY' },
+  { id: 10, value: 'BRL', label: 'BRL' },
+  { id: 11, value: 'INR', label: 'INR' },
+  { id: 12, value: 'MXN', label: 'MXN' },
+  { id: 13, value: 'ZAR', label: 'ZAR' },
+  { id: 14, value: 'HKD', label: 'HKD' },
+  { id: 15, value: 'SGD', label: 'SGD' },
+];

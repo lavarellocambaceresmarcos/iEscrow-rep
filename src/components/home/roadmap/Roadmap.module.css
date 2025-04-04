@@ -1,0 +1,119 @@
+.roadmap {
+  color: var(--light-text-color);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  padding-bottom: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow-x: hidden;
+}
+.roadmap.dark {
+  background-image: url('../../../assets/images/roadmap/dark/roadmap_bg_mobile.png');
+}
+.roadmap.light {
+  background-image: url('../../../assets/images/roadmap/light/roadmap_bg_mobile.png');
+}
+.titleCont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 4rem 0;
+}
+.timeLine {
+  position: absolute;
+  padding-top: 24rem;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timeLine img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+.list {
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.list li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list li img {
+  margin: 2rem 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.date {
+  color: var(--text-decoration-color);
+}
+
+@media screen and (min-width: 768px) {
+  .roadmap {
+    padding-bottom: 400px;
+  }
+  .roadmap.dark {
+    background-image: url('../../../assets/images/roadmap/dark/roadmap_bg_tablet.png');
+  }
+  .roadmap.light {
+    background-image: url('../../../assets/images/roadmap/light/roadmap_bg_tablet.png');
+  }
+  .titleCont {
+    justify-content: flex-start;
+    transform: translateY(7rem);
+  }
+  .timeLine {
+    padding-top: 25rem;
+  }
+  .timeLine img {
+    display: block;
+    padding: 0 6rem;
+  }
+  .list li img {
+    display: none;
+  }
+  .list li {
+    flex-direction: row;
+  }
+  .tokenPresale {
+    justify-content: flex-start;
+  }
+  .tokenLaunch {
+    justify-content: center;
+    transform: translateY(4rem);
+  }
+  .exchangeLaunch {
+    justify-content: flex-end;
+  }
+  .tokenPresale,
+  .exchangeLaunch {
+    transform: translateX(10px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .roadmap.dark {
+    background-image: url('../../../assets/images/roadmap/dark/roadmap_bg_desktop.png');
+  }
+  .roadmap.light {
+    background-image: url('../../../assets/images/roadmap/light/roadmap_bg_desktop.png');
+  }
+}

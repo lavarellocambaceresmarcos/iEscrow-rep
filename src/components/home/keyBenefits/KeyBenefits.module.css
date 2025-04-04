@@ -1,0 +1,136 @@
+/* Container */
+.keyBenefits {
+  margin: 6rem 0;
+  padding: 1rem;
+  position: relative;
+  color: var(--white);
+  overflow-x: hidden;
+}
+.keyBenefits h2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--light-text-color);
+}
+
+/* Card */
+.card {
+  margin-top: 10rem;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.falseBg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: calc(100% - 4rem);
+}
+.keyBenefits.dark .falseBg {
+  background: linear-gradient(
+    180deg,
+    rgba(27, 128, 164, 0.5) 0%,
+    rgba(10, 48, 62, 0.5) 100%
+  );
+}
+.keyBenefits.light .falseBg {
+  background: #1f5c8796;
+}
+
+/* Content */
+.content {
+  width: calc(100% - 2rem - 3vw);
+  padding: 0 1.2rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.keyBenefits.dark .content {
+  background: linear-gradient(180deg, #1b80a4 0%, #144d62 64.65%, #0a303e 100%);
+}
+.keyBenefits.light .content {
+  background: linear-gradient(180deg, #1f5b87, #063e67);
+}
+.phone {
+  width: 100%;
+  transform: translateY(-60px);
+}
+
+/* Articles */
+.articles {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+  gap: calc(0.5rem + 4vw);
+}
+
+.articles article h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  font-size: calc(1rem + 0.4vw);
+}
+.articles article ul {
+  list-style: none;
+}
+.articles article ul li p {
+  font-size: calc(0.7rem + 0.4vw);
+}
+.text p {
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 460px) {
+  .articles article h3 {
+    font-size: calc(1.2rem + 0.5vw);
+  }
+  .articles article ul li p {
+    font-size: calc(0.9rem + 0.3vw);
+  }
+}
+@media screen and (min-width: 768px) {
+  .keyBenefits {
+    margin: 6rem 4rem;
+  }
+  .articles {
+    gap: calc(1rem + 4vw);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .keyBenefits {
+    max-width: 980px;
+    margin: 6rem auto;
+    padding: 0;
+  }
+  .keyBenefits h2 {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .content {
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem 2rem;
+    gap: 3rem;
+  }
+  .phone {
+    transform: none;
+  }
+  .textContainer {
+    width: 60%;
+  }
+  .text p {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .keyBenefits {
+    max-width: 1200px;
+  }
+}

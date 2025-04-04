@@ -1,0 +1,37 @@
+.community {
+  width: 100%;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-top: 6rem;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.community h2 {
+  color: var(--light-text-color);
+}
+
+.community.dark {
+  background-image: url('../../../assets/images/community/dark/bg_desktop.png');
+}
+.community.light {
+  background-image: url('../../../assets/images/community/light/bg_desktop.png');
+}
+.cta {
+  margin-top: 4rem;
+  color: var(--light-text-color);
+}
+.cta a {
+  color: var(--primary-color);
+}

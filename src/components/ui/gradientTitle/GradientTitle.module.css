@@ -1,0 +1,28 @@
+.gradientTitle {
+  position: relative;
+  height: auto;
+  background: linear-gradient(to right, var(--pink), var(--cian));
+  -webkit-background-clip: text;
+  color: transparent;
+  z-index: 1;
+  display: block;
+}
+.gradientTitle::before {
+  position: absolute;
+  content: '';
+  width: 70%;
+  height: 12px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  bottom: 39%;
+  z-index: -1;
+  border-radius: 100%;
+  filter: blur(13px);
+}
+.gradientTitle.dark::before {
+  background: linear-gradient(to right, var(--pink), var(--cian));
+}
+.gradientTitle.light::before {
+  background: #1d6ae6;
+}

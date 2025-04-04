@@ -1,0 +1,163 @@
+:root {
+  --primary-color: #1b80a4;
+  --secondary-color: #1b80a4;
+  --white: #ffffff;
+  --black: #171717;
+  --background-color: #171717;
+  --footer-bg: #1e1e1e;
+
+  --primary-hover: #106483;
+  --secondary-hover: #ffffff;
+
+  --pink: #e020f1;
+  --cian: #30c2e2;
+
+  --transparent-black: #171717ce;
+  --transparent-white: rgba(255, 255, 255, 0.1);
+
+  --dropdown-bg: #171717;
+  --dropdown-shadow: #292929;
+
+  --dark-text-color: #c2bfbf;
+  --light-text-color: #ffffff;
+  --text-decoration-color: #30c2e2;
+}
+
+[data-theme='dark'] {
+  --primary-color: #1b80a4;
+  --secondary-color: #1b80a4;
+  --background-color: #171717;
+
+  --primary-hover: #1b6079;
+  --secondary-hover: #ffffff;
+
+  --dark-text-color: #c2bfbf;
+  --light-text-color: #ffffff;
+  --text-decoration-color: #30c2e2;
+  --footer-bg: #1e1e1e;
+  --navbar-bg: #171717;
+
+  --dropdown-bg: #171717;
+  --dropdown-shadow: #1b1b1b;
+
+  --transparent-white: rgba(255, 255, 255, 0.1);
+
+  --scrollbar-bg: #1e1e1e;
+}
+
+[data-theme='light'] {
+  --primary-color: #0056b3;
+  --secondary-color: #076f94;
+  --background-color: #ffffff;
+
+  --primary-hover: #004186;
+  --secondary-hover: #ffffff;
+
+  --dark-text-color: #212121;
+  --light-text-color: #000000;
+  --text-decoration-color: #117e97;
+  --footer-bg: #ffffff;
+  --navbar-bg: #ffffff;
+
+  --dropdown-bg: #ffffff;
+  --dropdown-shadow: #707070;
+
+  --transparent-white: rgba(75, 75, 75, 0.1);
+
+  --scrollbar-bg: #e9e9e9;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+p,
+a,
+button {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+h1 {
+  font-size: 1.75rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+ul,
+ol {
+  list-style: none;
+}
+.testing {
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  p,
+  a,
+  button {
+    font-size: 1.1rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p,
+  a,
+  button {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 400;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  /* .wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+  } */
+}
+@media screen and (min-width: 1280px) {
+  /* .wrapper {
+    max-width: 1200px;
+  } */
+}
+@media screen and (min-width: 1440px) {
+}

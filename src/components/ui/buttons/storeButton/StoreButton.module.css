@@ -1,0 +1,33 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 0.4rem 1.5rem;
+  border: 2px solid var(--light-text-color);
+  border-radius: 0.625rem;
+  color: var(--light-text-color);
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.45s ease-in-out;
+  width: 239px;
+}
+.button img {
+  height: 45px;
+  width: auto;
+}
+.button span p {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.button .platform {
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+  border: 2px solid var(--text-decoration-color);
+}
+.button:hover .platform {
+  color: var(--text-decoration-color);
+}

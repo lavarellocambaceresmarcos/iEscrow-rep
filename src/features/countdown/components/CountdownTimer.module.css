@@ -1,0 +1,67 @@
+.countdown {
+  display: flex;
+  color: var(--light-text-color);
+}
+.countdown.white {
+  color: var(--white);
+}
+.countdown.black {
+  color: var(--black);
+}
+
+.timerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown.sm .timerContainer {
+  width: 2.5rem;
+}
+.countdown.sm span {
+  font-size: 1.375rem;
+}
+.countdown.sm p {
+  font-size: 0.75rem;
+}
+
+.countdown.lg .timerContainer {
+  width: 5rem;
+}
+.countdown.lg span {
+  font-size: 3rem;
+}
+.countdown.lg p {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .countdown.lg .timerContainer {
+    width: 7rem;
+  }
+  .countdown.lg span {
+    font-size: 4.375rem;
+    font-weight: 500;
+  }
+  .countdown.lg p {
+    font-size: 1.875rem;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .countdown.lg .timerContainer {
+    width: 6.5rem;
+  }
+  .countdown.lg span {
+    font-size: 4.375rem;
+  }
+  .countdown.lg p {
+    font-size: 1.875rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .countdown.lg .timerContainer {
+    width: 7rem;
+  }
+}

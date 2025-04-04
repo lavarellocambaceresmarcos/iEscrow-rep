@@ -1,0 +1,176 @@
+{
+  "Navbar": {
+    "roadmap": "Roadmap",
+    "marketplace": "Marketplace",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "createEscrow": "Crear escrow"
+  },
+  "Footer": {
+    "About": {
+      "title": "Sobre Nosotros",
+      "about": "acerca",
+      "terms": "términos",
+      "privacy": "privacidad"
+    },
+    "Services": {
+      "title": "Servicios",
+      "download": "Descargar",
+      "terms": "Marketplace",
+      "escrow": "Escrow",
+      "refer": "Programa de referidos",
+      "list": "Solicitud de listado"
+    },
+    "Support": {
+      "title": "Soporte",
+      "help": "Centro de ayuda",
+      "security": "Seguridad"
+    },
+    "Contact": {
+      "title": "Comunidad"
+    },
+    "Copyright": {
+      "copyright": "© {{year}} iEscrow.crypto Derechos Reservados",
+      "terms": "Términos del sitio",
+      "disclaimer": "Aviso de protocolo",
+      "privacy": "Políticas de privacidad"
+    }
+  },
+  "Home": {
+    "Banner": {
+      "motto": "Tu seguridad, nuestra prioridad.",
+      "title": "El primer intercambio híbrido CEX/DEX de <0>criptomonedas P2P con escrow</0>",
+      "description": "Intercambia criptomonedas con personas de todo el mundo, conocidas o desconocidas, de forma rápida, fácil y con la máxima seguridad a través de nuestro escrow descentralizado.",
+      "watchVideo": "Mirar video",
+      "createEscrow": "Crear escrow"
+    },
+    "Roadmap": {
+      "title": "Roadmap",
+      "tokenPresale": {
+        "title": "IEO Preventa de Tokens",
+        "currency": "Criptomoneda",
+        "description": "La preventa de $ESCROW comienza",
+        "date": "1 de julio de 2025"
+      },
+      "tokenLaunch": {
+        "title": "Lanzamiento del token",
+        "currency": "Criptomoneda",
+        "description": "Lanzamiento del token $ESCROW",
+        "date": "15 de agosto de 2025"
+      },
+      "exchangeLaunch": {
+        "title": "Lanzamiento del Exchange",
+        "currency": "Criptomoneda",
+        "description": "Lanzamiento del exchange de $ESCROW",
+        "date": "1 de septiembre de 2025"
+      }
+    },
+    "Countdown": {
+      "days": "Días",
+      "hours": "Horas",
+      "minutes": "Min",
+      "seconds": "Seg"
+    },
+    "KeyBenefits": {
+      "title": "Tenemos un enfoque <0>híbrido CEX/DEX</0>",
+      "Defi": {
+        "title": "Beneficios clave de un DEX (DeFi)",
+        "list": {
+          "0": "Sin intermediarios",
+          "1": "Sin confianza",
+          "2": "Accesibilidad",
+          "3": "Sin permisos",
+          "4": "Inmutable"
+        }
+      },
+      "Gefi": {
+        "title": "Beneficios clave de un CEX (GeFi)",
+        "list": {
+          "0": "Soporte al cliente",
+          "1": "Comisiones más bajas"
+        }
+      },
+      "cta1": "iEscrow combina todas estas características en una sola plataforma.",
+      "cta2": "Puedes usar iEscrow como un DEX completo, o como un CEX, ¡tú eliges!"
+    },
+    "LowerFees": {
+      "titleSpan": "25% lower fees",
+      "title": "con nuestra criptomoneda.",
+      "coin": "$Escrow",
+      "comingSoon": "Próximamente!",
+      "presale": "La preventa comienza en",
+      "website": "website",
+      "whitepaper": "whitepaper",
+      "presaleLaunch": "Próximamente!",
+      "presaleStartsIn": "La preventa comienza en",
+      "tokenLaunch": "Próximamente!",
+      "tokenStartsIn": "Lanzamiento del token en",
+      "exchangeLaunch": "Próximamente!",
+      "exchangeStartsIn": "Lanzamiento del exchange en",
+      "launched": "Lanzado",
+      "endMessage": "El Exchange fue Lanzado 🚀"
+    },
+    "InfoBlock": {
+      "Security": {
+        "title": "Tu seguridad, nuestra prioridad",
+        "description": "Ese es el lema de iEscrow. Todo el desarrollo de nuestra plataforma tuvo la seguridad como su premisa principal, por lo que ejecutamos dos auditorías de seguridad."
+      },
+      "Mission": {
+        "title": "What is our mission",
+        "description": "Nuestra misión es ofrecer una plataforma segura y confiable para el intercambio de criptomonedas, garantizando la protección de los fondos de nuestros usuarios mediante un enfoque híbrido CEX/DEX y auditorías de seguridad constantes."
+      },
+      "Reputation": {
+        "title": "Sistema innovador de",
+        "title2": "reputación y calificación",
+        "description": "Desarrollamos un sistema innovador de reputación y calificación, que representa una mejora significativa con respecto a los sistemas anteriores."
+      },
+      "Adaptability": {
+        "title": "Asombrosa adaptabilidad",
+        "description": "En iEscrow, no es necesario mantener tus fondos dentro de la plataforma para utilizar nuestros servicios, ya que puedes completar una transacción de escrow p2p enviando los fondos directamente a la billetera de escrow, desde cualquier billetera DeFi o exchange centralizado. No solo eso, también puedes recibir los fondos en cualquier dirección que prefieras, ya sea dentro de iEscrow o en cualquier otra dirección."
+      },
+      "Privacy": {
+        "title": "Nos importa la privacidad",
+        "description": "En iEscrow, nos importa la privacidad de nuestros usuarios. No solo entendemos lo importante que es, sino que también creemos que es un derecho. Es por eso que no implementamos KYC en países donde no es obligatorio."
+      }
+    },
+    "Marketplace": {
+      "title": "Descubre tu match ideal: <0>Explora nuestro Marketplace</0>",
+      "description1": "Si <0>ya tienes la otra parte para realizar una transacción,</0> tu opción más eficiente sería <0>hacer un fideicomiso privado.</0>",
+      "description2": "Sin embargo, si quieres realizar una transacción pero <0>aún estás buscando una contraparte,</0> entonces puedes <0>usar el marketplace para hacer el intercambio que necesitas de inmediato.</0>",
+      "description3": "Hemos desarrollado un marketplace intuitivo en el que el usuario puede encontrar fácilmente lo que necesita configurando solo 3 opciones simples: 1) Qué desea comprar, 2) con qué desea pagarlo y 3) el país en el que desea realizar la transacción.",
+      "description4": "Finalmente, puedes ordenar tu búsqueda por los usuarios con la mejor reputación, los usuarios con el mejor precio o los usuarios con el tiempo de respuesta más rápido en realizar sus transacciones.",
+      "visit": "Visita Marketplace"
+    },
+    "TradeOnTheGo": {
+      "title": "Opera sobre la marcha. <0>Donde sea, cuando sea.</0>",
+      "description": "Escanea para descargar la app <0>iOS y Android</0>",
+      "googlePlay": "Consíguelo ahora",
+      "appStore": "Descargar en el"
+    },
+    "Community": {
+      "title": "Nuestra comunidad",
+      "person1": {
+        "name": "FC",
+        "description": "Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat"
+      },
+      "person2": {
+        "name": "FC",
+        "description": "Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat"
+      },
+      "person3": {
+        "name": "FC",
+        "description": "Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat"
+      },
+      "cta": {
+        "0": "Tienes preguntas?",
+        "1": "Contactanos",
+        "2": "o unete a nuestro",
+        "3": "Telegram"
+      }
+    },
+    "Metadata": {
+      "title": "iEscrow | El primer intercambio híbrido CEX/DEX P2P con escrow",
+      "description": "Intercambio P2P de Criptomonedas con Custodia. Opera de manera segura y protegida en el Intercambio P2P de Criptomonedas con Custodia."
+    }
+  }
+}

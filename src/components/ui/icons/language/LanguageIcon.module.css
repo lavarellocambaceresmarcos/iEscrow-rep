@@ -1,0 +1,15 @@
+.cian path {
+  fill: #30c2e2;
+}
+.pink path {
+  fill: var(--pink);
+}
+.gray path {
+  fill: #a8a8a8;
+}
+.black path {
+  fill: #171717;
+}
+.blue path {
+  fill: #0056b3;
+}
